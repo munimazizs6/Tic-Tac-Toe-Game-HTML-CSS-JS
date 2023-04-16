@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="default.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <header>
+        <h1>TIC TAC TOE</h1>
+    </header>
+    <section>
+        <div class="box">
+            <div class="boxtop">
+                <h4>SCORE</h4>
+                <p>Player 1:</p>
+                <p id="p1">0</p>
+                <p>Player 2:</p>
+                <p id="p2">0</p>
+                <h4>TURN</h4>
+                <p id="turn">Player 1</p>
+            </div>
+            <div class="boxmid">
+                <div class="boxx">
+                    <button onclick="tictactoe(1)" id="1">?</button>
+                    <button onclick="tictactoe(2)" id="2">?</button>
+                    <button onclick="tictactoe(3)" id="3">?</button>
+                </div>
+                <div class="boxx">
+                    <button onclick="tictactoe(4)" id="4">?</button>
+                    <button onclick="tictactoe(5)" id="5">?</button>
+                    <button onclick="tictactoe(6)" id="6">?</button>
+                </div>
+                <div class="boxx">
+                    <button onclick="tictactoe(7)" id="7">?</button>
+                    <button onclick="tictactoe(8)" id="8">?</button>
+                    <button onclick="tictactoe(9)" id="9">?</button>
+                </div>
+            </div>
+            <div class="boxbottom">
+                <button class="playagain" onclick="again()">PLAY AGAIN</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h6>CREATED BY MUNIM AZIZ SHAIKH</h6>
+    </footer>
+    <script src="default.js"></script>
+</body>
+</html>
